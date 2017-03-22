@@ -111,6 +111,7 @@ public class StationFragment extends Fragment{
             } else {
                 renderStation(station, mainView);
             }
+            getActivity().setTitle(station.getTitle());
         }
     }
 
