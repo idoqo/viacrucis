@@ -5,12 +5,15 @@ import android.content.res.AssetManager;
 import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.BottomSheetDialog;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.GridView;
 import android.widget.TextView;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -19,6 +22,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import io.github.idoqo.viacrucis.adapter.StationsGridAdapter;
 import io.github.idoqo.viacrucis.helpers.Utils.Util;
 import io.github.idoqo.viacrucis.model.Station;
 
@@ -28,11 +32,30 @@ public class StationFragment extends Fragment{
     private ArrayList<Station> stations = new ArrayList<>();
 
     private View mainView;
+    GridView stationsGrid;
+    View bottomSheetView;
+    BottomSheetDialog bottomSheetDialog;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         StationsLoaderTask loaderTask = new StationsLoaderTask();
         loaderTask.execute();
+
+        setHasOptionsMenu(true);
+
+        bottomSheetDialog = new BottomSheetDialog(getActivity());
+        bottomSheetView = getActivity().getLayoutInflater().inflate(R.layout.stations_dialog, null, false);
+        bottomSheetDialog.setContentView(bottomSheetView);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.jump_to:
+                bottomSheetDialog.show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -111,11 +134,13 @@ public class StationFragment extends Fragment{
             } else {
                 renderStation(station, mainView);
             }
-            getActivity().setTitle(station.getTitle());
+            stationsGrid = (GridView) bottomSheetView.findViewById(R.id.gridview);
+            stationsGrid.setAdapter(new StationsGridAdapter(getActivity().getApplicationContext(), stations));
         }
     }
 
     private void renderPrayer(Station prayer, View view) {
+        getActivity().setTitle(prayer.getTitle());
         TextView numeralView = (TextView) view.findViewById(R.id.roman_numeral);
         TextView titleView = (TextView) view.findViewById(R.id.station_title);
         TextView scriptureView = (TextView) view.findViewById(R.id.scripture);
@@ -131,6 +156,7 @@ public class StationFragment extends Fragment{
     }
 
     private void renderStation(Station station, View view) {
+        getActivity().setTitle(station.getRomanNumeral());
         TextView numeralView = (TextView) view.findViewById(R.id.roman_numeral);
         TextView titleView = (TextView) view.findViewById(R.id.station_title);
         TextView scriptureView = (TextView) view.findViewById(R.id.scripture);
