@@ -1,19 +1,19 @@
 {
-  "opening_prayer": {
-    "scripture": "Mt. 26:36-39",
-    "reading": "Jesus came with his disciples to a country place called Gethsemane, and he said to them, \"Sit down here, while I go over yonder and pray.\" Then he took with him Peter and the two sons of Zebedee, and he began to be saddened and exceedingly troubled. He said to them, \"My soul is sad, even unto death. Wait here and watch with me.\" He went forward a little,and falling prostrate he prayed, saying, \"Father, if it is possible, let this cup pass away from me; yet not as I will but as you will.\"",
-    "prayer": "Almighty and eternal Father, accept our prayer of thanksgiving for your Beloved Son, our Saviour and Lord. As we recall his Sacred Passion send the Spirit of Christ into our hearts, we beg You,  so that whether we pray or work we might do all /In union with Christ our Redeemer. Amen",
-    "hymn": "Jesus Lord, condemned, defiled,\nMay we too be meek and mild\nAs we tread your holy Way.\nMay we feel no bitter hatred, \nWhen we too are persecuted, \nLeft alone to walk with You."
-  },
-
-  "closing_prayer": {
-    "scripture": "Mark 16:1-6",
-    "reading": "When the Sabbath was past, Mary Magdalene and Mary the mother of James and Salome bought spices, so that they might go and anoint him. And very early on the first day of the week, when the sun had risen, they went to the tomb. And they were saying to one another, \"Who will roll away the stone for us from the entrance of the tomb?\" And looking up, they saw that the stone had been rolled back--it was very large. And entering the tomb, they saw a young man sitting on the right side, dressed in a white robe, and they were alarmed. And he said to them, \"Do not be alarmed. You seek Jesus of Nazareth, who was crucified. He has risen; he is not here. See the place where they laid him.\"",
-    "prayer": "I believe in God, the Father almighty, creator of heaven and earth. I believe in Jesus Christ, his only son, our Lord. He was conceived by the Holy Spirit and born of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died, and was buried. He descended to the dead. On the third day he rose again. He ascended into heaven, and is seated at the right hand of the God, the Father Almighty.He will come again to judge the living and the dead.I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting. Amen"
-  },
-
   "stations": {
+    "opening_prayer": {
+      "position": 1,
+      "title": "Opening Prayer",
+      "scripture": "Mt. 26:36-39",
+      "reading": "Jesus came with his disciples to a country place called Gethsemane, and he said to them, \"Sit down here, while I go over yonder and pray.\" Then he took with him Peter and the two sons of Zebedee, and he began to be saddened and exceedingly troubled. He said to them, \"My soul is sad, even unto death. Wait here and watch with me.\" He went forward a little,and falling prostrate he prayed, saying, \"Father, if it is possible, let this cup pass away from me; yet not as I will but as you will.\"",
+      "prayer": "Almighty and eternal Father, accept our prayer of thanksgiving for your Beloved Son, our Saviour and Lord. As we recall his Sacred Passion send the Spirit of Christ into our hearts, we beg You,  so that whether we pray or work we might do all /In union with Christ our Redeemer. Amen",
+      "hymn": "Jesus Lord, condemned, defiled,\nMay we too be meek and mild\nAs we tread your holy Way.\nMay we feel no bitter hatred, \nWhen we too are persecuted, \nLeft alone to walk with You.",
+      "meditation": {
+        "scripture": "",
+        "reading": ""
+      }
+    },
     "first": {
+      "position": 2,
       "roman_numeral": "I",
       "title": "Jesus is condemned to death",
       "scripture": "Mark 14:61-64",
@@ -26,6 +26,7 @@
       "hymn": "Now the cross as Jesus bore it,\\n has become for us who share it\nthe jewelled Cross of Victory."
     },
     "second": {
+      "position": 3,
       "roman_numeral": "II",
       "title": "Jesus Carries his cross",
       "scripture": "John 19:14-17",
@@ -38,6 +39,7 @@
       "hymn": "Weakened, podded, cursed and falled,\n His whole body bruised and swollen\n Jesus tripped and lay in pain."
     },
     "third": {
+      "position": 4,
       "roman_numeral": "III",
       "title": "Jesus falls the first time",
       "scripture": "John 15:18-20",
@@ -50,6 +52,7 @@
       "hymn": "Jesus meets his grieving Mother, \nShe who made the Lord our Brother; \nNow the sword her heart has pierced"
     },
     "fourth": {
+      "position": 5,
       "roman_numeral": "IV",
       "title": "Jesus meets his mother",
       "scripture": "John 19:25-27",
@@ -62,6 +65,7 @@
       "hymn": "Simon stopped in hesitation,\nNot foreseeing his proud station, \nCalled to bear the Cross of Christ. "
     },
     "fifth": {
+      "position": 6,
       "roman_numeral": "V",
       "title": "Simon of Cyrene helps carry the cross of Jesus",
       "scripture": "Mt. 15:20-22",
@@ -74,6 +78,7 @@
       "hymn": "Brave but trembling came the woman,\nNone but she would flaunt the Roman, \nMoved by love beyond her fear"
     },
     "sixth": {
+      "position": 7,
       "roman_numeral": "VI",
       "title": "Veronica wipes the face of Jesus",
       "scripture": "Mt. 25:37-40",
@@ -81,106 +86,125 @@
       "meditation": {
         "scripture": "Sirach 6:14-17",
         "reading": "A faithful friend is a sturdy shelter; he who finds one finds a treasure. A faithful friend is beyond price, no sum can balance his worth. A faithful friend is a life-saving remedy, such as he who fears God finds; for he who fears God behaves accordingly, and his friend will be like himself."
-      }
+      },
+      "let_us_pray": "Almighty and ever-loving God, we feel your love and understanding in the consolation and support we receive from one another. Give us, we beg You, the courage and dedication to sacrifice and suffer with those who are in need, the least of your people. Amen.",
+      "hymn": "Prostrate on the dust He crumbled,\nFlogged in Body He resembled\nAll our brothers poor and scorned"
     },
-    "let_us_pray": "Almighty and ever-loving God, we feel your love and understanding in the consolation and support we receive from one another. Give us, we beg You, the courage and dedication to sacrifice and suffer with those who are in need, the least of your people. Amen.",
-    "hymn": "Prostrate on the dust He crumbled,\nFlogged in Body He resembled\nAll our brothers poor and scorned"
-  },
-
-  "seventh": {
-    "roman_numeral": "VII",
-    "title": "Jesus falls the second time",
-    "scripture": "Is. 53:4-6",
-    "reading": "It was our weaknesses that he carried, our sufferings that he endured, while we thought of him as stricken, as one struck by God and afflicted. But he was pierced for our offenses, crushed for our sins; upon him was the punishment that makes us whole, by his stripes we were healed. We had all gone astray like sheep, each following his own way; but the Lord laid upon him the guilt of us all.",
-    "meditation": {
-      "scripture": "Is. 53:7,9",
-      "reading": "Though he was harshly treated, he submitted and opened not his mouth; like a Lamb led to the slaughter or a sheep before the shearers,  he was silent and uttered no cry. When he was cut off from the land of the living, and smitten for the sin of His people, a grave was assigned him among the wicked and a burial place with evildoers, though he had done no wrong nor spoken any falsehood."
+    "seventh": {
+      "position": 8,
+      "roman_numeral": "VII",
+      "title": "Jesus falls the second time",
+      "scripture": "Is. 53:4-6",
+      "reading": "It was our weaknesses that he carried, our sufferings that he endured, while we thought of him as stricken, as one struck by God and afflicted. But he was pierced for our offenses, crushed for our sins; upon him was the punishment that makes us whole, by his stripes we were healed. We had all gone astray like sheep, each following his own way; but the Lord laid upon him the guilt of us all.",
+      "meditation": {
+        "scripture": "Is. 53:7,9",
+        "reading": "Though he was harshly treated, he submitted and opened not his mouth; like a Lamb led to the slaughter or a sheep before the shearers,  he was silent and uttered no cry. When he was cut off from the land of the living, and smitten for the sin of His people, a grave was assigned him among the wicked and a burial place with evildoers, though he had done no wrong nor spoken any falsehood."
+      },
+      "let_us_pray": "Lord Jesus Christ, You shared in our weaknesses and accepted our guilt. Grant us the favor of rejoicing over our human weaknesses, so that in all we do, Your strength, dwelling in us, may be shown to all others. Amen.",
+      "hymn": "May our sympathy for Jesus\nTurn to those who here now need us, \nMay we see Christ bruised in them."
     },
-    "let_us_pray": "Lord Jesus Christ, You shared in our weaknesses and accepted our guilt. Grant us the favor of rejoicing over our human weaknesses, so that in all we do, Your strength, dwelling in us, may be shown to all others. Amen.",
-    "hymn": "May our sympathy for Jesus\nTurn to those who here now need us, \nMay we see Christ bruised in them."
-  },
-  "eight": {
-    "roman_numeral": "VIII",
-    "title": "Jesus meets the women of Jerusalem",
-    "scripture": "Luke 23:27-28",
-    "reading": "There was following Jesus a great crowd of people, and among them were some women who were bewailing and lamenting him. Jesus turning to them said, \"Daughters of Jerusalem, do not weep for me but weep for yourselves and for your children.\"",
-    "meditation": {
-      "scripture": "Lam. 1:12-16",
-      "reading": "Come, all you who pass by the way, look and see whether there is any suffering like my suffering, suffering with which the Lord has afflicted me on the day of his blazing wrath. At this I weep, my eyes run with tears far from me are all who could console me, far away are any who might revive me."
+    "eight": {
+      "position": 9,
+      "roman_numeral": "VIII",
+      "title": "Jesus meets the women of Jerusalem",
+      "scripture": "Luke 23:27-28",
+      "reading": "There was following Jesus a great crowd of people, and among them were some women who were bewailing and lamenting him. Jesus turning to them said, \"Daughters of Jerusalem, do not weep for me but weep for yourselves and for your children.\"",
+      "meditation": {
+        "scripture": "Lam. 1:12-16",
+        "reading": "Come, all you who pass by the way, look and see whether there is any suffering like my suffering, suffering with which the Lord has afflicted me on the day of his blazing wrath. At this I weep, my eyes run with tears far from me are all who could console me, far away are any who might revive me."
+      },
+      "let_us_pray": "Beloved Jesus, with tears of pity these women of Jerusalem responded to You, broken, bruised, and beaten, on the road to Calvary. Deepen our faith, we beg You, so that we may see You in our brothers and sisters, bruised by our envy, beaten down by injustice, and broken by our greed and our indifference. Amen",
+      "hymn": "Jesus falls again in weakness,\nStumbling as we do, to lead us \nThrough our sorrow and our pain."
     },
-    "let_us_pray": "Beloved Jesus, with tears of pity these women of Jerusalem responded to You, broken, bruised, and beaten, on the road to Calvary. Deepen our faith, we beg You, so that we may see You in our brothers and sisters, bruised by our envy, beaten down by injustice, and broken by our greed and our indifference. Amen",
-    "hymn": "Jesus falls again in weakness,\nStumbling as we do, to lead us \nThrough our sorrow and our pain."
-  },
-  "ninth": {
-    "roman_numeral": "IX",
-    "title": "Jesus falls the third time",
-    "scripture": "Ps. 118:25-28",
-    "reading": "I lie prostrate in the dust; give me life according to your word. I declared my ways, and you answered me; teach me your commands. Make me understand the way of your precepts, and I will meditate on your wondrous deeds. My soul weeps for sorrow; strengthen me with your words.",
-    "meditation": {
-      "scripture": "Psalm 26:1-3",
-      "meditation": "The Lord is my light and my salvation; whom should I fear? The Lord is my life's refuge; of whom should I be afraid? When evildoers come at me to devour my flesh, my foes and my enemies themselves stumble and fall. Though an army encamp against me, my heart will not fear; though war be waged upon me, even then will I trust."
+    "ninth": {
+      "position": 10,
+      "roman_numeral": "IX",
+      "title": "Jesus falls the third time",
+      "scripture": "Ps. 118:25-28",
+      "reading": "I lie prostrate in the dust; give me life according to your word. I declared my ways, and you answered me; teach me your commands. Make me understand the way of your precepts, and I will meditate on your wondrous deeds. My soul weeps for sorrow; strengthen me with your words.",
+      "meditation": {
+        "scripture": "Psalm 26:1-3",
+        "meditation": "The Lord is my light and my salvation; whom should I fear? The Lord is my life's refuge; of whom should I be afraid? When evildoers come at me to devour my flesh, my foes and my enemies themselves stumble and fall. Though an army encamp against me, my heart will not fear; though war be waged upon me, even then will I trust."
+      },
+      "let_us_pray": "Almighty and eternal God, You permitted your Son to be weakened, crushed, and profaned so that He might rise from the dead freed from the ravages of sin. Help us to accept our weaknesses and failings as forerunners of our glorious resurrection in union with your Son. Amen",
+      "hymn": "Stripped and jeered by his own nation,\nJesus stood in desolation, \nGiving all He had to give."
     },
-    "let_us_pray": "Almighty and eternal God, You permitted your Son to be weakened, crushed, and profaned so that He might rise from the dead freed from the ravages of sin. Help us to accept our weaknesses and failings as forerunners of our glorious resurrection in union with your Son. Amen",
-    "hymn": "Stripped and jeered by his own nation,\nJesus stood in desolation, \nGiving all He had to give."
-  },
-  "tenth": {
-    "roman_numeral": "X",
-    "title": "Jesus is stripped of his clothes",
-    "scripture": "Mt. 27:34-35",
-    "reading": "They gave Jesus wine to drink mixed with gall; but when he had tasted it, He would not drink. Then, after they had crucified him, they divided his clothes, casting lots, to fulfill what was spoken through the prophet: \"They divided my clothes among them, and upon my garment they cast lots.\"",
-    "meditation": {
-      "scripture": "Job 5:17-18; Ps. 68:21-22",
-      "reading": "Happy is the man whom God chastises! Do not reject the punishment of the almighty For he wounds, but he binds up; he smites but his hands give healing. Insult has broken my heart, and I am weak. I looked for comforters and I found none. Rather they put gall in my food and in my thirst they gave me vinegar to drink "
+    "tenth": {
+      "position": 11,
+      "roman_numeral": "X",
+      "title": "Jesus is stripped of his clothes",
+      "scripture": "Mt. 27:34-35",
+      "reading": "They gave Jesus wine to drink mixed with gall; but when he had tasted it, He would not drink. Then, after they had crucified him, they divided his clothes, casting lots, to fulfill what was spoken through the prophet: \"They divided my clothes among them, and upon my garment they cast lots.\"",
+      "meditation": {
+        "scripture": "Job 5:17-18; Ps. 68:21-22",
+        "reading": "Happy is the man whom God chastises! Do not reject the punishment of the almighty For he wounds, but he binds up; he smites but his hands give healing. Insult has broken my heart, and I am weak. I looked for comforters and I found none. Rather they put gall in my food and in my thirst they gave me vinegar to drink "
+      },
+      "let_us_pray": "Lord Jesus Christ, stripped of everything, You stood exposed to the jeers and contempt of the people whom You loved. Clothe us with genuine love of others, so that nothing we suffer may ever fill our hearts with hatred or bitterness. Amen.",
+      "hymn": "Pierced the hand that blessed and cured us,\nPierced the feet that walked to free us, \nWalked the hill of Calvary."
     },
-    "let_us_pray": "Lord Jesus Christ, stripped of everything, You stood exposed to the jeers and contempt of the people whom You loved. Clothe us with genuine love of others, so that nothing we suffer may ever fill our hearts with hatred or bitterness. Amen.",
-    "hymn": "Pierced the hand that blessed and cured us,\nPierced the feet that walked to free us, \nWalked the hill of Calvary."
-  },
-  "eleventh": {
-    "roman_numeral": "XI",
-    "title": "Jesus is nailed to the cross",
-    "scripture": "Luke 23:33-35; John 19:18",
-    "reading": "When they came to Golgotha, the place called the Skull, they crucified Jesus and the robbers, one on his right and the other on his left. And Jesus said, \"Father, forgive them for they do not know what they are doing.\"",
-    "meditation": {
-      "scripture": "Ps. 21:2-3, 15-16, 17b",
-      "reading": "My God, my God, why have you forsaken me, far from my prayer, far from the words of my cry? O my God, I cry out by day, and you answer me not; I cry out by night, and there is no relief for me. All my bones are racked. My heart has become like wax melting away within my chest. My throat is dried up like baked clay, my tongue cleaves to my jaws; they have pierced my hands and my feet; I can count all my bones."
+    "eleventh": {
+      "position": 12,
+      "roman_numeral": "XI",
+      "title": "Jesus is nailed to the cross",
+      "scripture": "Luke 23:33-35; John 19:18",
+      "reading": "When they came to Golgotha, the place called the Skull, they crucified Jesus and the robbers, one on his right and the other on his left. And Jesus said, \"Father, forgive them for they do not know what they are doing.\"",
+      "meditation": {
+        "scripture": "Ps. 21:2-3, 15-16, 17b",
+        "reading": "My God, my God, why have you forsaken me, far from my prayer, far from the words of my cry? O my God, I cry out by day, and you answer me not; I cry out by night, and there is no relief for me. All my bones are racked. My heart has become like wax melting away within my chest. My throat is dried up like baked clay, my tongue cleaves to my jaws; they have pierced my hands and my feet; I can count all my bones."
+      },
+      "let_us_pray": "Lord and Saviour. You have told us that we too must accept crucifixion if we are to accept resurrection with You. Help us to rejoice in the sufferings that come with the fulfillment of our daily duties, seeing in them the royal road of the cross to resurrection. Amen.",
+      "hymn": "Life eternal, death defiant,\nBowed his head - the world was silent, \nThrough his death came life anew."
     },
-    "let_us_pray": "Lord and Saviour. You have told us that we too must accept crucifixion if we are to accept resurrection with You. Help us to rejoice in the sufferings that come with the fulfillment of our daily duties, seeing in them the royal road of the cross to resurrection. Amen.",
-    "hymn": "Life eternal, death defiant,\nBowed his head - the world was silent, \nThrough his death came life anew."
-  },
-  "twelfth": {
-    "roman_numeral": "XII",
-    "title": "Jesus dies on the cross",
-    "scripture": "Luke 23:44-46; John 19:30b",
-    "reading": "It was now about the sixth hour, and there was darkness over the whole land until the ninth hour, And the sun was darkened, and the curtain of the temple was torn in the middle. Jesus cried out with a loud voice and said, \"It is finished. Father, into your hands I commend my spirit.\" Then, bowing his head, he died.",
-    "meditation": {
-      "scripture": "from the Reproaches of Good Friday",
-      "reading": "My people, what have I done to you? or in what have I offended you? Answer me. What more should I have done, and did not do? I led you out of the land of Egypt, and you prepared a cross for me. I opened the Red Sea before you, and you opened my side with a lance. I gave you a royal scepter, and you have given me a crown of thorns. With great power I lifted you up, and you have hung me upon a cross. My people, what have I done to you, or in what have I offended you? Answer me."
+    "twelfth": {
+      "position": 13,
+      "roman_numeral": "XII",
+      "title": "Jesus dies on the cross",
+      "scripture": "Luke 23:44-46; John 19:30b",
+      "reading": "It was now about the sixth hour, and there was darkness over the whole land until the ninth hour, And the sun was darkened, and the curtain of the temple was torn in the middle. Jesus cried out with a loud voice and said, \"It is finished. Father, into your hands I commend my spirit.\" Then, bowing his head, he died.",
+      "meditation": {
+        "scripture": "from the Reproaches of Good Friday",
+        "reading": "My people, what have I done to you? or in what have I offended you? Answer me. What more should I have done, and did not do? I led you out of the land of Egypt, and you prepared a cross for me. I opened the Red Sea before you, and you opened my side with a lance. I gave you a royal scepter, and you have given me a crown of thorns. With great power I lifted you up, and you have hung me upon a cross. My people, what have I done to you, or in what have I offended you? Answer me."
+      },
+      "let_us_pray": "Our Father, Who art in heaven, hallowed be thy name. Thy kingdom come,  Thy will be done, on earth as it is in heaven. Give us this day our daily bread and forgive us our trespasses, as we forgive those who trespass against us, And lead us not into temptation, but deliver us from evil. Amen",
+      "hymn": "Stunned and stricken, Mary, Mother\nIn your arms was placed our Brother\nFull of grace - now filled with grief"
     },
-    "let_us_pray": "Our Father, Who art in heaven, hallowed be thy name. Thy kingdom come,  Thy will be done, on earth as it is in heaven. Give us this day our daily bread and forgive us our trespasses, as we forgive those who trespass against us, And lead us not into temptation, but deliver us from evil. Amen",
-    "hymn": "Stunned and stricken, Mary, Mother\nIn your arms was placed our Brother\nFull of grace - now filled with grief"
-  },
-  "thirteenth": {
-    "roman_numeral": "XIII",
-    "title": "The body of Jesus is taken down from the cross",
-    "scripture": "John 19:33-34,38a",
-    "reading": "When the soldiers came to Jesus, they saw that he was already dead so that they did not break his legs, but one of them opened his side with a lance, and immediately there came out blood and water. Joseph of Arimathea, because he was a disciple of Jesus (although a secret one for fear of the Jews), besought Pilate that he might take away the body of Jesus And Pilate gave permission.",
-    "meditation": {
-      "scripture": "Ezekiel 37:12-14",
-      "reading": "O my people, I will open your graves and have you rise from them, and I will bring you back to your land. Then you shall know that I am the Lord. O my people! I will put my spirit in you that you may live. You shall know then that I am the Lord. I have promised it and I will do it, says the Lord."
+    "thirteenth": {
+      "position": 14,
+      "roman_numeral": "XIII",
+      "title": "The body of Jesus is taken down from the cross",
+      "scripture": "John 19:33-34,38a",
+      "reading": "When the soldiers came to Jesus, they saw that he was already dead so that they did not break his legs, but one of them opened his side with a lance, and immediately there came out blood and water. Joseph of Arimathea, because he was a disciple of Jesus (although a secret one for fear of the Jews), besought Pilate that he might take away the body of Jesus And Pilate gave permission.",
+      "meditation": {
+        "scripture": "Ezekiel 37:12-14",
+        "reading": "O my people, I will open your graves and have you rise from them, and I will bring you back to your land. Then you shall know that I am the Lord. O my people! I will put my spirit in you that you may live. You shall know then that I am the Lord. I have promised it and I will do it, says the Lord."
+      },
+      "let_us_pray": "Beloved Saviour, You returned to the Father all that He had given You, so that He might restore all to You a hundred-fold in the glorious resurrection. HeIp us, we beg You, to give generously of ourselves in all that we do for You, so that like You we might be made perfect in a new resurrection. Amen.",
+      "hymn": "Jesus, Lord, your gift accepted,\nIn three days, You resurrected.\nYou did first what we shall do."
     },
-    "let_us_pray": "Beloved Saviour, You returned to the Father all that He had given You, so that He might restore all to You a hundred-fold in the glorious resurrection. HeIp us, we beg You, to give generously of ourselves in all that we do for You, so that like You we might be made perfect in a new resurrection. Amen.",
-    "hymn": "Jesus, Lord, your gift accepted,\nIn three days, You resurrected.\nYou did first what we shall do."
-  },
-  "fourteenth": {
-    "roman_numeral": "XIV",
-    "title": "Jesus is laid on the Tomb",
-    "scripture": "Mt. 27:59-60",
-    "reading": "oseph of Arimathea took the body of Jesus, and wrapping it in a clean linen cloth he laid it in his new tomb, which he had hewn out of rock. Then he rolled a large stone against the entrance of the tomb and departed.",
-    "meditation": {
-      "scripture": "Ps 30:1-5",
-      "reading": "I will praise you, O Lord, for you lifted me out of the depths and did not let my enemies rejoice over me. O Lord, my God, I cried out to you and you healed me. O Lord, you brought me up from the lower world; you preserved me from among those going down into the pit. Sing praise to the Lord, you his faithful ones, and give thanks to his holy name. For his anger lasts but a moment; his good will is for a lifetime. Weeping may endure for a night but joy comes in the morning."
+    "fourteenth": {
+      "position": 15,
+      "roman_numeral": "XIV",
+      "title": "Jesus is laid on the Tomb",
+      "scripture": "Mt. 27:59-60",
+      "reading": "Joseph of Arimathea took the body of Jesus, and wrapping it in a clean linen cloth he laid it in his new tomb, which he had hewn out of rock. Then he rolled a large stone against the entrance of the tomb and departed.",
+      "meditation": {
+        "scripture": "Ps 30:1-5",
+        "reading": "I will praise you, O Lord, for you lifted me out of the depths and did not let my enemies rejoice over me. O Lord, my God, I cried out to you and you healed me. O Lord, you brought me up from the lower world; you preserved me from among those going down into the pit. Sing praise to the Lord, you his faithful ones, and give thanks to his holy name. For his anger lasts but a moment; his good will is for a lifetime. Weeping may endure for a night but joy comes in the morning."
+      },
+      "let_us_pray": "Almighty and eternal God, on the edge of sadness when all seemed lost, You restored to us the Saviour we thought defeated and conquered. Help us, we beg You, so to empty ourselves of self concern that we might see your hand in every failure and your victory in every defeat. These things we ask in the name of your Son, Jesus Christ, who lives and reigns forever with You in the unity of the Holy Spirit. Amen.",
+      "hymn": "Jesus Risen be our lover\nIn your Food and in our brother, \nLead us home to heaven with You."
     },
-    "let_us_pray": "Almighty and eternal God, on the edge of sadness when all seemed lost, You restored to us the Saviour we thought defeated and conquered. Help us, we beg You, so to empty ourselves of self concern that we might see your hand in every failure and your victory in every defeat. These things we ask in the name of your Son, Jesus Christ, who lives and reigns forever with You in the unity of the Holy Spirit. Amen.",
-    "hymn": "Jesus Risen be our lover\nIn your Food and in our brother, \nLead us home to heaven with You."
+    "closing_prayer": {
+      "position": 16,
+      "title": "Closing Prayer",
+      "scripture": "Mark 16:1-6",
+      "reading": "When the Sabbath was past, Mary Magdalene and Mary the mother of James and Salome bought spices, so that they might go and anoint him. And very early on the first day of the week, when the sun had risen, they went to the tomb. And they were saying to one another, \"Who will roll away the stone for us from the entrance of the tomb?\" And looking up, they saw that the stone had been rolled back--it was very large. And entering the tomb, they saw a young man sitting on the right side, dressed in a white robe, and they were alarmed. And he said to them, \"Do not be alarmed. You seek Jesus of Nazareth, who was crucified. He has risen; he is not here. See the place where they laid him.\"",
+      "prayer": "I believe in God, the Father almighty, creator of heaven and earth. I believe in Jesus Christ, his only son, our Lord. He was conceived by the Holy Spirit and born of the Virgin Mary. He suffered under Pontius Pilate, was crucified, died, and was buried. He descended to the dead. On the third day he rose again. He ascended into heaven, and is seated at the right hand of the God, the Father Almighty.He will come again to judge the living and the dead.I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and the life everlasting. Amen",
+      "meditation": {
+        "scripture": "",
+        "reading": ""
+      },
+      "hymn": ""
+    }
   }
 }

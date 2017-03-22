@@ -6,4 +6,21 @@
     <string name="title_previous">Previous</string>
     <string name="title_jump_to">Jump To</string>
     <string name="title_next">Next</string>
+
+    <string name="adoration">We adore you, O Christ and we praise you, because by your holy cross, You have redeemed the world.</string>
+    <string name="section_title_adoration">Adoration</string>
+    <string name="section_title_meditation">Meditation</string>
+    <string name="section_title_reading">Reading</string>
+    <string name="section_title_hymn">Hymn</string>
+    <string name="section_title_prayer">Let us pray</string>
+
+    <!--test info-->
+    <string name="test_numeral">I</string>
+    <string name="test_title">Jesus is condemned to death</string>
+    <string name="test_scripture">Mark 14:61&#8211;64</string>
+    <string name="test_reading">Again the high priest began to ask him, and said to him, \"Are you the Christ, the Son of the Blessed One?\" And Jesus said to him, \"I am. And you shall see the Son of Man sitting at the right hand of the Power and Coming with the clouds of heaven,\" But the high priest tore his garments and said, \"What further need have we of witnesses? You have heard the blasphemy. What do you think?\" And they all condemned him as liable to death.</string>
+    <string name="test_prayer">O my people, I will open your graves and have you rise from them, and I will bring you back to your land. Then you shall know that I am the Lord. O my people! I will put my spirit in you that you may live. You shall know then that I am the Lord. I have promised it and I will do it, says the Lord. </string>
+    <string name="test_hymn">Now the cross as Jesus bore it,\\n has become for us who share it\nthe jewelled Cross of Victory.</string>
+    <string name="test_med_scripture">Ezekiel 14:33-35</string>
+    <string name="test_med_reading">O my people, I will open your graves and have you rise from them, and I will bring you back to your land. Then you shall know that I am the Lord. O my people! I will put my spirit in you that you may live. You shall know then that I am the Lord. I have promised it and I will do it, says the Lord.</string>
 </resources>
