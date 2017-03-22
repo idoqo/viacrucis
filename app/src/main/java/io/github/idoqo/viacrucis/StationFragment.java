@@ -129,17 +129,18 @@ public class StationFragment extends Fragment{
             Station station = stations.get(position);
             //0 = first index = opening prayer
             //15 = last index = closing prayer
-            if (position == 0 || position == 15) {
+            /*if (position == 0 || position == 15) {
                 renderPrayer(station, mainView);
             } else {
                 renderStation(station, mainView);
-            }
+            }*/
+            renderStation(station, mainView);
             stationsGrid = (GridView) bottomSheetView.findViewById(R.id.gridview);
             stationsGrid.setAdapter(new StationsGridAdapter(getActivity().getApplicationContext(), stations));
         }
     }
 
-    private void renderPrayer(Station prayer, View view) {
+    /*private void renderPrayer(Station prayer, View view) {
         getActivity().setTitle(prayer.getTitle());
         TextView numeralView = (TextView) view.findViewById(R.id.roman_numeral);
         TextView titleView = (TextView) view.findViewById(R.id.station_title);
@@ -153,10 +154,10 @@ public class StationFragment extends Fragment{
         prayerView.setText(prayer.getPrayer());
         hymnView.setText(prayer.getHymn());
         scriptureView.setText(prayer.getScripture());
-    }
+    }*/
 
     private void renderStation(Station station, View view) {
-        getActivity().setTitle(station.getRomanNumeral());
+        getActivity().setTitle(station.getTitle());
         TextView numeralView = (TextView) view.findViewById(R.id.roman_numeral);
         TextView titleView = (TextView) view.findViewById(R.id.station_title);
         TextView scriptureView = (TextView) view.findViewById(R.id.scripture);
@@ -166,11 +167,16 @@ public class StationFragment extends Fragment{
         TextView prayerView = (TextView) view.findViewById(R.id.prayer);
         TextView hymnView = (TextView) view.findViewById(R.id.hymn);
 
-        numeralView.setText(station.getRomanNumeral());
+        if (station.getRomanNumeral() != null) {
+            numeralView.setText(station.getRomanNumeral());
+        }
         titleView.setText(station.getTitle());
         readingView.setText(station.getReading());
-        meditationScriptureView.setText(station.getMeditation().getScripture());
-        meditationReadingView.setText(station.getMeditation().getReading());
+
+        if (station.getMeditation() != null) {
+            meditationScriptureView.setText(station.getMeditation().getScripture());
+            meditationReadingView.setText(station.getMeditation().getReading());
+        }
         prayerView.setText(station.getPrayer());
         hymnView.setText(station.getHymn());
         scriptureView.setText(station.getScripture());

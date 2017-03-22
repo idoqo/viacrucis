@@ -19,8 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:id="@+id/roman_numeral"
-        android:textSize="24sp"
-        android:text="I"/>
+        android:textSize="24sp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
