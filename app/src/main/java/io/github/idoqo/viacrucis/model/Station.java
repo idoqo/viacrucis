@@ -18,6 +18,8 @@ public class Station {
     private String hymn;
     @JsonProperty("let_us_pray")
     private String prayer;
+    @JsonProperty("image_path")
+    private String imagePath;
 
     public int getStationID() {
         return stationID;
@@ -77,6 +79,14 @@ public class Station {
 
     public String getPrayer() {
         return prayer;
+    }
+
+    public String getImagePath() {
+        return imagePath;
+    }
+
+    public void setImagePath(String imagePath) {
+        this.imagePath = imagePath;
     }
 
     public void setPrayer(String prayer) {

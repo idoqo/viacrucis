@@ -4,6 +4,8 @@ package io.github.idoqo.viacrucis.helpers.Utils;
 import android.content.Context;
 import android.util.Log;
 
+import junit.framework.Assert;
+
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -22,5 +24,12 @@ public class Util {
             Log.e(tag, ex.getMessage());
         }
         return json;
+    }
+
+    public static int getDrawable(Context context, String name) {
+        Assert.assertNotNull(context);
+        Assert.assertNotNull(name);
+
+        return context.getResources().getIdentifier(name, "drawable", context.getPackageName());
     }
 }

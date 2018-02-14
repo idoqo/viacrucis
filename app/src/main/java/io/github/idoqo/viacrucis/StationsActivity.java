@@ -21,6 +21,9 @@ public class StationsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stations);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_arrow_back);
+
         stationsAdapter = new StationsAdapter(getSupportFragmentManager());
         pager = (ViewPager) findViewById(R.id.pager_content);
         pager.setAdapter(stationsAdapter);

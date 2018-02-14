@@ -16,15 +16,17 @@ android {
 }
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 27
     defaultConfig {
         applicationId "io.github.idoqo.viacrucis"
         minSdkVersion 21
-        targetSdkVersion 24
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        android.compileOptions.sourceCompatibility 1.8
+        android.compileOptions.targetCompatibility 1.8
     }
     buildTypes {
         release {
@@ -39,10 +41,10 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
-    compile 'com.android.support:design:24.2.1'
-    compile 'com.android.support:design:25.0.0'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.1.0-beta5'
+    compile 'com.android.support:design:27.0.2'
+    compile 'com.android.support:design:27.0.2'
     compile 'com.fasterxml.jackson.core:jackson-core:2.8.3'
     compile 'com.fasterxml.jackson.core:jackson-databind:2.8.3'
     compile 'com.fasterxml.jackson.core:jackson-annotations:2.8.3'
