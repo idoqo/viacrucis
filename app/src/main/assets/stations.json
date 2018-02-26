@@ -2,119 +2,120 @@
   "stations": {
     "opening_prayer": {
       "position": 1,
+      "roman_numeral": "",
       "title": "Opening Prayer",
-      "scripture": "Mt. 26:36-39",
-      "reading": "Jesus came with his disciples to a country place called Gethsemane, and he said to them, \"Sit down here, while I go over yonder and pray.\" Then he took with him Peter and the two sons of Zebedee, and he began to be saddened and exceedingly troubled. He said to them, \"My soul is sad, even unto death. Wait here and watch with me.\" He went forward a little,and falling prostrate he prayed, saying, \"Father, if it is possible, let this cup pass away from me; yet not as I will but as you will.\"",
-      "prayer": "Almighty and eternal Father, accept our prayer of thanksgiving for your Beloved Son, our Saviour and Lord. As we recall his Sacred Passion send the Spirit of Christ into our hearts, we beg You,  so that whether we pray or work we might do all /In union with Christ our Redeemer. Amen",
-      "hymn": "Jesus Lord, condemned, defiled,\nMay we too be meek and mild\nAs we tread your holy Way.\nMay we feel no bitter hatred, \nWhen we too are persecuted, \nLeft alone to walk with You.",
+      "scripture": "",
+      "reading": "",
+      "hymn": "At the cross her station keeping\n Stood the mournful mother weeping\n Close to Jesus to the last.",
       "image_path": "opening_prayer.jpg",
       "meditation": {
         "scripture": "",
         "reading": ""
-      }
+      },
+      "let_us_pray": "God our Father, in obedience to you your only son accepted death on the Cross for the salvation of mankind. We acknowledge the mystery of the cross on Earth. May we receive the gift of redemption in heaven. We ask this through Christ our Lord. Amen."
     },
     "first": {
       "position": 2,
       "roman_numeral": "I",
       "title": "Jesus is condemned to death",
-      "scripture": "Mark 14:61-64",
-      "reading": "Again the high priest began to ask him, and said to him, \"Are you the Christ, the Son of the Blessed One?\" And Jesus said to him, \"I am. And you shall see the Son of Man sitting at the right hand of the Power and Coming with the clouds of heaven,\" But the high priest tore his garments and said, \"What further need have we of witnesses? You have heard the blasphemy. What do you think?\" And they all condemned him as liable to death.",
+      "scripture": "John",
+      "reading": "Pilate was anxious to set him free but the Jews shouted: 'If you set him free, you are no friend of Ceaser's; anyone who makes himself king is defying Ceasar'. Hearing these words, Pilate had Jesus brought out. 'Here is your king', he said to the Jews. 'Take him away, take him away!' they said. 'Crucify him' 'Do you want me to crucify your king?' said Pilate. The chief priests answered, 'We have no king except Ceasar'. So in the end, Pilate handed him over to them to be crucified. (In.19:12-13a,15-16).",
       "meditation": {
-        "scripture": "Ezekiel 37:12-14",
-        "reading": "O my people, I will open your graves and have you rise from them, and I will bring you back to your land. Then you shall know that I am the Lord. O my people! I will put my spirit in you that you may live. You shall know then that I am the Lord. I have promised it and I will do it, says the Lord. "
+        "scripture": "",
+        "reading": "The father loves me because I lay down my life in order to take it up again. No one takes it from me; I lay it down of my own free will, and as it is in my power to lay it down, so it is in my power to take it up again; and this is the command I have been given by my father. (In.10:17-18)"
       },
       "image_path": "station01.jpg",
-      "let_us_pray": "All-powerful and eternal God, for proclaiming the truth your Son, Jesus Christ, is condemned to death by crucifixion. Stir up your love in our hearts so that we might be ever faithful to all that You have told us and fear nothing more than the loss of your friendship through sin. Amen.",
-      "hymn": "Now the cross as Jesus bore it,\\n has become for us who share it\nthe jewelled Cross of Victory."
+      "let_us_pray": "Lord, by shedding his blood for us your Son, Jesus Christ established the paschal mystery. In your goodness, make us holy and watch over us always. We ask this through Christ our Lord, Amen.",
+      "hymn": "Through her heart his sorrow sharing\nAll his bitter anguish sharing\nNow at length the sword has passed."
     },
     "second": {
       "position": 3,
       "roman_numeral": "II",
-      "title": "Jesus Carries his cross",
-      "scripture": "John 19:14-17",
-      "reading": "And Pilate said to the Jews, \"Behold, your king!\" But they cried out, \"Away with him! Away with him! Crucify him!\" Pilate said to them, \"Shall I crucify your king?\" The chief priests answered, \"We have no king but Caesar.\" Then he handed him over to them to be crucified. And so they took Jesus and led him away, bearing the cross for himself. ",
+      "title": "Jesus receives his cross",
+      "scripture": "John",
+      "reading": "Then they took charge of Jesus, and carrying his own cross, he went out of the city to the place of the skull, or as it was called in Hebrew, Golgotha. (In 19:17).",
       "meditation": {
-        "scripture": "Is. 53:1-3",
-        "reading": "Who would believe what we have heard? To whom has the arm of the Lord been revealed? He grew up like a sapling before him, like a shoot from the parched earth, there was in him no stately bearing to make us look at him, no appearance that would attract us to him. He was rejected and avoided by men, a man of suffering, accustomed to infirmity, one of those from whom men turn away, and we held him in no esteem. "
+        "scripture": "Matthew 16:24-26",
+        "reading": "If anyone wants to be a follower of mine, let him renounce himself, take up his cross and follow me. For anyone who wants to save his life will lose it; but anyone who loses his life for my sake will find it. What then will a man gain, if he wins the whole world and ruins his life? Or what has a man to offer in exchange for his life?"
       },
       "image_path": "station0.jpg",
-      "let_us_pray": "Father in heaven, your Son, Jesus Christ, still carries his Cross in his persecuted brothers and sisters throughout the world. Make us feel the needs of all persons so that we might as readily help them as we would help Jesus himself. Amen. ",
-      "hymn": "Weakened, podded, cursed and falled,\n His whole body bruised and swollen\n Jesus tripped and lay in pain."
+      "let_us_pray": "Almighty and ever-living God, you gave our saviour the command to become man and undergo the cross, as an example for all men to follow. We have the lessons of his sufferings; give us the fellowship of his resurrection. We ask this through Christ our Lord. Amen.",
+      "hymn": "Oh how sad and sore distressed\nWas the mother highly blessed\nOf the sole begotten one."
     },
     "third": {
       "position": 4,
       "roman_numeral": "III",
-      "title": "Jesus falls the first time",
-      "scripture": "John 15:18-20",
-      "reading": "If the world hates you, know that it has hated me before you. If you were of the world, the world would love what is its own. Because you are not of the world, but I have chosen you out of the world, therefore the world hates you. Remember the word that I have spoken to you: No servant is greater than his master. If they have persecuted me, they will persecute you also.",
+      "title": "Jesus falls the first time under his cross",
+      "scripture": "Isaiah",
+      "reading": "The Lord Yahweh has opened my ear. For my part, I made no resistance, neither did I turn away. I offered my back to those who struck me, my cheeks to those who tore at my beard. I did not cover my face against the insult and spittle. The Lord Yahweh came to my help so that I am untouched by the insults. So too, I set my face like flint; I know I shall not be ashamed.",
       "meditation": {
-        "scripture": "Isaiah 63:2-5",
-        "reading": "Why are your clothes red, and your garments like those of the wine presser? \"The wine press I have trodden alone, and of my people there was no one with me. I trod them in my anger, and trampled them down in my wrath; their blood spurted on my garments and I stained all my clothes. I looked about, but there was no one to help,  I was appalled that there was no one to lend support; so my own arm brought about the victory.\""
+        "scripture": "",
+        "reading": "I tell you, most solemnly, unless a wheat grain falls on the ground and dies, it remains only a single grain; but if it dies, it yields a rich harvest. Anyone who loves his life loses it, anyone who hates his life in this world will keep it for eternal life. Now my soul is troubled. What shall I say? Father save me from this hour? But it was for this very reason that I have come to this hour. Father, glorify your name. (In.12:24-25;27-28)."
       },
       "image_path": "station03.jpg",
-      "let_us_pray": "O God, to free us from sin and weakness your Son, Jesus Christ, embraced his fearful passion and crucifixion. Strengthen us to our baptismal resolutions by which we renounced sin and Satan, so that through the passion of this life's sufferings we might rise to a new life of joyful service free of all selfishness. Amen.",
-      "hymn": "Jesus meets his grieving Mother, \nShe who made the Lord our Brother; \nNow the sword her heart has pierced"
+      "let_us_pray": "Father, through the obedience of Jesus, your servant and your Son, you raised a fallen world, Free us from sin and bring us to the joy that lasts forever. We ask this through Christ our Lord. Amen.",
+      "hymn": "Christ above in torment hangs\nShe beneath beholds the pang\nOf her dying glorious son."
     },
     "fourth": {
       "position": 5,
       "roman_numeral": "IV",
-      "title": "Jesus meets his mother",
-      "scripture": "John 19:25-27",
-      "reading": "Now there were standing by the cross of Jesus his mother and his mother's sister, Mary of Cleophas, and Mary Magdalene. When Jesus, therefore, saw his mother and the disciple standing by, whom he loved, he said to his mother, \"Woman, behold, your son.\" Then he said to the disciple, \"Behold, your mother.\" And from that hour the disciple took her into his home.",
+      "title": "Jesus is met by his blessed mother",
+      "scripture": "St. Luke",
+      "reading": "Simeon blessed them and said to Mary his mother, \"You see this child: he is destined for the fall and for the rising of many in Israel, destined to be a sign that is rejected - and a sword will pierce your own sould too - so that the secret thoughts of many might be laid bare\". (Luke.2:34-35).",
       "meditation": {
-        "scripture": "Lam. 2:13",
-        "reading": "To what can I compare you, O daughter Jerusalem? What example can I show you for your comfort, Virgin daughter Sion? For great as the sea is your distress: who can heal you?"
+        "scripture": "",
+        "reading": "I have come so that they may have life and have it to the full. I am the good shepherd; I know my own and my own know me, just as the father knows me and I know the father; and I lay down my life for my sheep. (Jn 10:10b,14-15)."
       },
       "image_path": "station04.jpg",
-      "let_us_pray": "O blessed Lord, at your passion a sword of sorrow pierced the loving heart of your mother as Simeon had foretold. Grant that we who look back on her sorrows with compassion might receive the healing fruits of your sufferings. Amen.",
-      "hymn": "Simon stopped in hesitation,\nNot foreseeing his proud station, \nCalled to bear the Cross of Christ. "
+      "let_us_pray": "Father, you prepared the Virgin Mary to be a worthy mother of your Son. You let her share beforehand in the salvation Christ would bring by his death, and kept her sinless from the first moment of her being. Help us by her prayers to live in your presence without sin. We ask this through Christ our Lord. Amen.",
+      "hymn": "Is there one who would not weep\nWhelm'd the miseries so deep\nChrist's dear mother to behold."
     },
     "fifth": {
       "position": 6,
       "roman_numeral": "V",
-      "title": "Simon of Cyrene helps carry the cross of Jesus",
-      "scripture": "Mt. 15:20-22",
-      "reading": "And when they had mocked Jesus, they took the purple cloak off and put his own clothes on him and they led him out to be crucified. Then they forced a certain passer-by, Simon of Cyrene, coming from the country, to take up his cross. They brought Jesus to the place called Golgotha, a name meaning \"the place of the skull.\"",
+      "title": "The cross is laid upon Simon of Cyrene",
+      "scripture": "St. Mark",
+      "reading": "They enlisted a passer-by, Simon of Cyrene, Father of Alexander and Rufus, who was coming in from the country to carry his cross.",
       "meditation": {
-        "scripture": "Psalm 141:2-5",
-        "reading": "With a loud voice I cry out to the Lord with a loud voice I beseech the Lord My complaint I pour out before him; before him I lay bare my distress. When my spirit is faint within me you know my path. In the way along which I walk they have hid a trap for me. I look to the right to see, but there is no one who pays me heed I have lost all means of escape; there is no one who cares for my life."
+        "scripture": "",
+        "reading": "The disciple is not superior to his teacher, nor the slave to his master, it is enough for the disciple that he should grow to be like his teacher, and the slave like his master. If they have called the master of the house Beelzebul, what will they not say of his household? Do not be afraid of those who kill the body but cannot kill the soul; fear him rather who can destroy bot body and soul in hell. (Matt 10:24-25,28)."
       },
       "image_path": "station05.jpg",
-      "let_us_pray": "Lord Jesus Christ, help us to see in the sufferings and shortcomings of our lives a share in Your Cross; strengthen and console us in the belief that we bear all things in union with You, who have taken upon Yourself even our guilt. Amen.",
-      "hymn": "Brave but trembling came the woman,\nNone but she would flaunt the Roman, \nMoved by love beyond her fear"
+      "let_us_pray": "Father, by the blood of your own Son, you have set all men free and saved us from death, Continue the work of love within us, that by constantly celebrating the mystery of salvation, we may reach the eternal life it promises. We ask this through Christ our Lord. Amen.",
+      "hymn": "Can the human heart refrain\nFrom partaking in her pain\nIn that mother's pain untold."
     },
     "sixth": {
       "position": 7,
       "roman_numeral": "VI",
       "title": "Veronica wipes the face of Jesus",
-      "scripture": "Mt. 25:37-40",
-      "reading": "\"Lord, when did we see you hungry, and feed you; or thirsty, and give you drink? And when did we see you a stranger, and take you in; or naked, and clothe you? Or when did we see you sick, or in prison, and come to you?\" And answering the king will say to them, \"Amen, I say to you, as long as you did it for one of these, the least of my brethren, you did it for me.\"",
+      "scripture": "Prophet Isaiah",
+      "reading": "Who could believe what we have heard, and to whom the power of Yahweh been revealed? Like a sapling he grew up in front of us, like a root in arid ground. Without beauty, without majesty, we saw him, no looks to attract our eyes; a thing despised and rejected by men, a man of sorrows and familiar with suffering, a man to make people screen their faces. he was despised and we took no account of him. (Is 53:1-3).",
       "meditation": {
-        "scripture": "Sirach 6:14-17",
-        "reading": "A faithful friend is a sturdy shelter; he who finds one finds a treasure. A faithful friend is beyond price, no sum can balance his worth. A faithful friend is a life-saving remedy, such as he who fears God finds; for he who fears God behaves accordingly, and his friend will be like himself."
+        "scripture": "John 12:45-46",
+        "reading": "Whoever sees me, sees the one who sent me, I, the light have come into the world, so that whoever believes in me need not stay in the dark anymore."
       },
       "image_path": "station06.jpg",
-      "let_us_pray": "Almighty and ever-loving God, we feel your love and understanding in the consolation and support we receive from one another. Give us, we beg You, the courage and dedication to sacrifice and suffer with those who are in need, the least of your people. Amen.",
-      "hymn": "Prostrate on the dust He crumbled,\nFlogged in Body He resembled\nAll our brothers poor and scorned"
+      "let_us_pray": "God our father, no secret is hidden from you, for every heart is opened to you and every wish is known. Fill our hearts with the light of your Holy Spirit to free our thoughts from sin, that we may perfectly love you and fittingly praise you. We ask this through Christ our Lord. Amen.",
+      "hymn": "Bruised, derided, cursed, defiled\nShe beheld her tender child\nAll with bloody scourges rent."
     },
     "seventh": {
       "position": 8,
       "roman_numeral": "VII",
       "title": "Jesus falls the second time",
-      "scripture": "Is. 53:4-6",
-      "reading": "It was our weaknesses that he carried, our sufferings that he endured, while we thought of him as stricken, as one struck by God and afflicted. But he was pierced for our offenses, crushed for our sins; upon him was the punishment that makes us whole, by his stripes we were healed. We had all gone astray like sheep, each following his own way; but the Lord laid upon him the guilt of us all.",
+      "scripture": "Prophet Isaiah",
+      "reading": "And yet ours were the sufferings he bore, our the sorrows he carried. But we, we thought of him as someone punished and struck by God and brought low. Yet he was pierced for our faults, crushed for our sins. On him lies a punishment that brings us peace and through his wounds we are healed. We had all gone astray like sheep each taking his won way and Yahweh burdened him with the sins of all of us. (Is 53:4-6).",
       "meditation": {
-        "scripture": "Is. 53:7,9",
-        "reading": "Though he was harshly treated, he submitted and opened not his mouth; like a Lamb led to the slaughter or a sheep before the shearers,  he was silent and uttered no cry. When he was cut off from the land of the living, and smitten for the sin of His people, a grave was assigned him among the wicked and a burial place with evildoers, though he had done no wrong nor spoken any falsehood."
+        "scripture": "Luke 12:36-37;40",
+        "reading": "Be like men who are waiting for their master to return from the wedding feast, ready to open the door as soon as he comes and knocks. Happy those servants whom the master finds awake when he comes. You too must stand ready, because the son of man is coming at an hour you do not expect."
       },
       "image_path": "station07.jpg",
-      "let_us_pray": "Lord Jesus Christ, You shared in our weaknesses and accepted our guilt. Grant us the favor of rejoicing over our human weaknesses, so that in all we do, Your strength, dwelling in us, may be shown to all others. Amen.",
-      "hymn": "May our sympathy for Jesus\nTurn to those who here now need us, \nMay we see Christ bruised in them."
+      "let_us_pray": "Almighty God, grant that we who are constantly betrayed by our own weakness, may draw the breath of new life from the passion and death of your only begotten son. We ask this through Christ our Lord. Amen.",
+      "hymn": "For the sins of his own nation\n Saw him hang in desolation\n Till his spirit forth he sent."
     },
     "eight": {
       "position": 9,
       "roman_numeral": "VIII",
-      "title": "Jesus meets the women of Jerusalem",
+      "title": "The women of Jerusalem mourns for Jesus",
       "scripture": "Luke 23:27-28",
       "reading": "There was following Jesus a great crowd of people, and among them were some women who were bewailing and lamenting him. Jesus turning to them said, \"Daughters of Jerusalem, do not weep for me but weep for yourselves and for your children.\"",
       "meditation": {
