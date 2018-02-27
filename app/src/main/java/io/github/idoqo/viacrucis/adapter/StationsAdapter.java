@@ -34,7 +34,7 @@ public class StationsAdapter extends FragmentStatePagerAdapter {
     }
 
     public int getCount() {
-        return 16;
+        return 17;
     }
 
     public CharSequence getPageTitle(int position) {
